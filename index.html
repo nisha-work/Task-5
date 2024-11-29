@@ -3,21 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="weather-container">
-        <h1>Weather App</h1>
-        <input type="text" id="locationInput" placeholder="Enter location">
-        <button onclick="fetchWeatherByLocation()">Get Weather</button>
-        <button onclick="fetchWeatherByGeolocation()">Use My Location</button>
+    <header class="main-header">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing My Skills, Projects, and Accomplishments</p>
+    </header>
 
-        <div id="weatherDisplay" class="weather-display">
-            <!-- Weather data will be displayed here -->
-        </div>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <script src="script.js"></script>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <img src="img.jpg" alt="img" class="profile-photo">
+        <p>
+        Hi! I'm Nisha Gupta<br>
+        | BSCIT student |<br>
+        | Pursuing Bscit at Sheth L.U.J college of Arts & Sir M.V College of science & Commerce, Mumbai |
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5,CSS,JavaScript</li>
+            <li>C,C++</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>PL/SQL</li>
+            <li>Analytical Skills</li>
+            <li>Project Management</li>
+            <li>Database Management system</li>
+            <li>Graphical User Interface</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                
+                <strong>Stop Watch</strong>I just finished building a simple yet functional stopwatch application <br>
+                using HTML, CSS, and JavaScript! It's a great beginner project to learn the basics of web development <br>
+                while creating something interactive. Features: Start/Pause functionality Reset to restart the timer Lap<br>
+                functionality to record elapsed time between laps Stylish design with responsive layout Clean and <br>
+                easy-to-understand code structure.<br>
+                Github Link:
+                <a href="https://github.com/nisha-work/Task-3">https://github.com/nisha-work/Task-3</a>
+                <br>
+                <br>
+            </li>
+            <li>
+                <strong>Tic-Tac-Toe Game</strong>I just finished a functional Tic-Tac-Toe game<br>
+                Player Turn Logic: Alternates between Player X and Player O seamlessly.<br>
+                Win Detection: Identifies winning patterns and celebrates the winner.<br>
+                Draw Handling: Recognizes and displays when the game ends in a draw.
+                Reset & New Game Options: Start fresh anytime.<br>
+                Github Link:
+                <a href="https://github.com/nisha-work/Task-2">https://github.com/nisha-work/Task-2</a> <br><br>
+            </li>  
+            <li>
+                <strong>Weather App</strong>This is a simple weather application built using HTML, CSS, and JavaScript.<br>
+                It leverages the OpenWeather API to fetch real-time weather data for a specified location or the user's current geolocation.<br>
+                Github Link:
+                <a href="https://github.com/nisha-work/Task-5">https://github.com/nisha-work/Task-5</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: bscit.nisha123@gmail.com</p>
+        <p>Phone: 123 456-7890</p>
+    </section>
 </body>
 </html>
