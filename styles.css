@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5488b5;
+}
+
+.weather-container {
+    text-align: center;
+    width: 300px;
+}
+
+.weather-container h1 {
+    font-size: 24px;
+    color: #000000;
+}
+
+#locationInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(40, 40, 105);
+}
+
+.weather-display {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
